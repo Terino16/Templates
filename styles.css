@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hed
+{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    text-align: center;
+  
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(3, 68, 19);
+    width: 100px;
+    height: 50px;
+}
+nav{
+    margin-top: 15px;
+}
+nav a{
+    padding: 20px;
+    margin: 30px;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    font-size: x-large;
+    color: white;
+    transition: 0.5s;
+   background-color: rgb(3, 68, 19);
+   border: 2px solid black;
+   width: 100px;
+}
+.order {
+   
+   font-size: larger;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.order a{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.order a:hover{
+    padding: 20px;
+    color: white;
+    transition: 0.5s;
+   background-color: rgb(3, 68, 19);
+   border: 2px solid black;
+   width: 100px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 83% 100%, 0 76%);
+    background: url(./thomas-verbruggen-5A06OWU6Wuc-unsplash.jpg);
+    background-size: cover;
+    height: 800px;
+    padding: 100px;
+}
+.box1 h1{
+    font-size: 80px;
+    color: rgb(31, 100, 3);
+}
+.box1 h2{
+    font-size: 25px;
+    color: rgb(185, 153, 7);
+}
+.box1 button{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(3, 68, 19);
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+}
+.box2{
+    margin-right: 100px;
+    border: 2px solid black;
+    width: 280px;
+    height: 360px;
+    background-color:rgb(3, 68, 19);
+    color: white;
+    padding: 10px;
+}
+.box2 p,h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+}
+.box2 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 130px;
+    font-size: 15px;
+}
+.content2{
+    margin-top: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    padding: 20px;
+    text-align: center;
+    border: none;
+    width: 300px;
+    margin: 20px;
+}
+.box3 img{
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+}
+.content3{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 50px;
+    
+}
+.box4{
+    width: 600px;
+}
+.box4 h1{
+    font-size: 100px;
+    font-style: bold;
+}
+.box4 button{
+    margin-top: 50px;
+    padding: 10px;
+    width: 200px;
+    font-size: large;
+    color: white;
+    background-color: rgb(3, 68, 19);
+}
+.box5 img{
+    border: 2px solid black;
+margin-right: 20px;
+ width: 400px;
+}
+.content4{
+    text-align: center;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.an img{
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(34, 68, 34);
+}
+.an button{
+    background-color: rgb(3, 68, 19);
+    padding: 9px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content5{
+    background: url(./scott-webb-C6oPXOatFD8-unsplash.jpg);
+    margin: 40px;
+    background-size: cover;
+    height: 800px;
+    
+
+}
+.logos{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(3, 68, 19);
+    width: 80px;
+    height: 50px;
+    padding-left: 10px;
+
+}
+.cunt{
+    color:  rgb(3, 68, 19);
+   margin-top: 200px;
+   margin-left: 200px;
+}
+.cunt h2{
+    font-size : 40px;
+  
+}
+.cunt h1{
+    font-size: 50px;
+}
+.search{
+    text-align: center;
+    border: 2px solid  rgb(3, 68, 19);
+    margin-top: 20px;
+    width: 200px;
+    height: 55px;
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+    padding-top: 15px;
+}
+
